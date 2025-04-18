@@ -1,0 +1,110 @@
+{
+	"id": "d07a3773-675f-421f-94df-5d2f95123d8b",
+	"name": "FRS",
+	"timestamp": "2025-03-28T06:57:04.994Z",
+	"collection_id": "5306653-8336b8f8-c267-4adb-9f65-e195effaf581",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-03-28T06:57:02.741Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "ae7d3567-0b9b-415c-b8b7-aa4a59104fac",
+			"name": "List of Users",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 198,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				198
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ef049669-12bd-49fd-8101-5e8e5217ca18",
+			"name": "Single User",
+			"url": "https://reqres.in/api/users/2",
+			"time": 73,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				73
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0b617f13-d097-4a6e-9399-61e2a0c5bf36",
+			"name": "user find",
+			"url": "https://reqres.in/api/users/23",
+			"time": 332,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				332
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "fd3bd84e-32fc-4edf-b94e-c399795aaa27",
+			"name": "Create User",
+			"url": "https://reqres.in/api/users",
+			"time": 375,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				375
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 978,
+	"collection": {
+		"requests": [
+			{
+				"id": "ae7d3567-0b9b-415c-b8b7-aa4a59104fac",
+				"method": "GET"
+			},
+			{
+				"id": "ef049669-12bd-49fd-8101-5e8e5217ca18",
+				"method": "GET"
+			},
+			{
+				"id": "0b617f13-d097-4a6e-9399-61e2a0c5bf36",
+				"method": "GET"
+			},
+			{
+				"id": "fd3bd84e-32fc-4edf-b94e-c399795aaa27",
+				"method": "POST"
+			}
+		]
+	}
+}
